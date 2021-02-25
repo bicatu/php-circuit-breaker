@@ -1,7 +1,6 @@
 language: php
 php:
-  - "5.4"
-  - "5.3"
+  - "7.4"
 before_script:
   - ./tests/before-travisci.sh
   - pear channel-discover pear.phpdoc.org
